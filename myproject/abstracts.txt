@@ -1,0 +1,8 @@
+c.a:CIVIL APPEAL NO.1474. OF 2015 (Against the judgment dated _16.12.2014 passed by the Peshawar High Court, Peshawar in Writ Petition No.162 of 2014).
+c.p:CIVIL PETITION NO. 664-K OF 2017 (On appeal against the judgment dated 15.11.2017 passed by the High Court of Sindh, Karachi in C.P. No. D-4177/2016)
+crl:CRIMINAL PETITION NO.860 OF 2019 AND CMA NO.1760 OF 2019 (Against the judgment of the Lahore High Court, Lahore dated 13.06.2019 passed in Criminal Appeal No. 111841/2017)
+f.c:Intra Court Appeal No. 07 of 2018 in Criminal Original Petition No, 09 of 2018 (Against the order dated 2.8.2018 passed by this Court in Crl. Original Petition No. 09 of 2018)
+h.r:Human Rights Case No.11827-S of 2018 IN THE MATTER REGARDING SELLING OF NATIONAL ASSETS INCLUDING PIA AT THROWAWAY PRICE.
+m.c:CRIMINAL  PETITION NO. 1364 - L /2013 ( A gainst the judgment dated  7.10 .2013  of the Lahore High  Court, Lahore passed  in Criminal Appeal No. 1698 /200 9 , Criminal Appeals No.,1918/2009 & Cr.R.  No.981/2009 and Murder Reference No.437/2009 )
+p.c:Criminal  Appeal  No.  264   of 2006 (Against the judgment dated 13.06.2002 passed by th e Lahore  High Court, Lahore in Criminal Appeal No. 1912 of 2000)
+s.m:S.M.C. NO. 01 OF 2014 &   CIVIL PETITION NO. 20 - K OF 2014   (On appeal from the judgm ent dated 25.11.2013  passed by the High Court of Sindh, Karachi in C.P.  No. D - 2267/2007)

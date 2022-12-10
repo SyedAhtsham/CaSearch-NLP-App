@@ -1,0 +1,9 @@
+Class NoOfCases
+Civil Appeals 128
+Civil Petetion 174
+Criminal Cases 192
+Family Cases 51
+Human Rights 67
+Murder Cases 152
+Property Cases 153
+Suo Moto 82

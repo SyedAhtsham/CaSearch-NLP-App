@@ -1,0 +1,65 @@
+government power 2020 constitution
+Weighting Scheme: TFIDF
+File cases tokens\c.a_1.pdf.txt 1.0
+File cases tokens\c.a_108.pdf.txt 1.0
+File cases tokens\c.a_11.pdf.txt 1.0
+File cases tokens\c.a_110.pdf.txt 1.0
+File cases tokens\c.a_112.pdf.txt 1.0
+File cases tokens\c.a_113.pdf.txt 1.0
+File cases tokens\c.a_115.pdf.txt 1.0
+File cases tokens\c.a_116.pdf.txt 1.0
+File cases tokens\c.a_117.pdf.txt 1.0
+File cases tokens\c.a_119.pdf.txt 1.0
+
+civil government power
+Weighting Scheme: TFIDF
+File cases tokens\c.a_10.pdf.txt 1.0
+File cases tokens\c.a_102.pdf.txt 1.0
+File cases tokens\c.a_111.pdf.txt 1.0
+File cases tokens\c.a_114.pdf.txt 1.0
+File cases tokens\c.a_118.pdf.txt 1.0
+File cases tokens\c.a_121.pdf.txt 1.0
+File cases tokens\c.a_122.pdf.txt 1.0
+File cases tokens\c.a_124.pdf.txt 1.0
+File cases tokens\c.a_125.pdf.txt 1.0
+File cases tokens\c.a_126.pdf.txt 1.0
+
+2018 provision constitution power
+Weighting Scheme: TFIDF
+File cases tokens\c.a_1.pdf.txt 1.0
+File cases tokens\c.a_108.pdf.txt 1.0
+File cases tokens\c.a_11.pdf.txt 1.0
+File cases tokens\c.a_110.pdf.txt 1.0
+File cases tokens\c.a_112.pdf.txt 1.0
+File cases tokens\c.a_113.pdf.txt 1.0
+File cases tokens\c.a_115.pdf.txt 1.0
+File cases tokens\c.a_116.pdf.txt 1.0
+File cases tokens\c.a_117.pdf.txt 1.0
+File cases tokens\c.a_119.pdf.txt 1.0
+
+govern civil 2016 govern power
+Weighting Scheme: TFIDF
+File cases tokens\c.a_111.pdf.txt 1.0
+File cases tokens\c.a_113.pdf.txt 1.0
+File cases tokens\c.a_114.pdf.txt 1.0
+File cases tokens\c.a_118.pdf.txt 1.0
+File cases tokens\c.a_121.pdf.txt 1.0
+File cases tokens\c.a_124.pdf.txt 1.0
+File cases tokens\c.a_126.pdf.txt 1.0
+File cases tokens\c.a_128.pdf.txt 1.0
+File cases tokens\c.a_129.pdf.txt 1.0
+File cases tokens\c.a_147.pdf.txt 1.0
+
+provision government
+Weighting Scheme: TFIDF
+File cases tokens\c.a_12.pdf.txt 1.0
+File cases tokens\c.a_141.pdf.txt 1.0
+File cases tokens\c.a_16.pdf.txt 1.0
+File cases tokens\c.a_34.pdf.txt 1.0
+File cases tokens\c.a_45.pdf.txt 1.0
+File cases tokens\c.a_70.pdf.txt 1.0
+File cases tokens\c.a_77.pdf.txt 1.0
+File cases tokens\c.a_89.pdf.txt 1.0
+File cases tokens\c.a_90.pdf.txt 1.0
+File cases tokens\c.p_110.pdf.txt 1.0
+

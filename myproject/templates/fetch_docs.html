@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found Cases</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+
+    a {
+    font-size: 22px;
+
+    }
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:active {
+      text-decoration: underline;
+    }
+    body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table, td, th {
+
+}
+
+
+table {
+border-spacing: 0;
+border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+</style>
+</head>
+<body style="background: url('static/court_bg2.jpg'); background-size:cover;">
+
+<table>
+    <tr>
+        <td style="width: 20%; padding: 40px; text-align: right; ">
+            <a href="{{ url_for('static', filename='index.html')}}" style="color:black;"><p style=" font-size: 34px;">CaSearch</p> </a>
+
+        </td>
+        <td  style="width: 40%; ">
+
+<form class="example" action="/" method="POST">
+    <label for="form-search"></label>
+  <input type="text" name ="query" id="form-search" placeholder="{{queryText}}" value="{{queryText}}" required>
+    <input type="hidden" name="query" value="{{queryText}}">
+                <input type="hidden" name="pageNo" value="0">
+
+  <button type="submit"><i class="fa fa-search"></i></button>
+
+</form>
+
+
+        </td>
+
+        <td>
+
+        </td>
+    </tr>
+
+
+
+
+    {% if docs %}
+
+        {%for i in range(0, len)%}
+            <tr>
+
+                <td style="width: 20%; padding: 20px; text-align: right; ">
+
+                </td>
+                <td style="text-align: left;">
+                    <a href="{{ url_for('static', filename=docs[i])}}" > {{docs[i]}} </a>
+                    <p> {{abstracts[i]}} </p>
+                </td>
+
+<!--                {% if i<1: %}-->
+                <td rowspan="3" style="padding: 20px;">
+                    <img src="{{ url_for('static', filename='cloud.png')}}" alt="word cloud" width="400" height="350">
+                </td>
+
+<!--                {%endif%}-->
+
+
+
+            </tr>
+
+        {%endfor%}
+
+
+
+    {% else %}
+        </table>
+        <h2 style="margin-left:20%; color:red;">Sorry! No Documents Found...</h2>
+
+
+
+    {% endif %}
+
+
+
+</table>
+
+<br><br><br>
+
+<table style="text-align:center; width: 10%; margin-left: 15%;">
+
+
+    {% if docs %}
+
+    <tr>
+        <td style="width: 10%;">
+            Current Page: {{pageNo}}
+        </td>
+
+        {%for i in range(0, noOfPages) %}
+
+        <td style="width:10px;">
+            <form  action="/" method="POST">
+                <input type="hidden" name="pageNo" value="{{i}}">
+                                <input type="hidden" name="query" value="{{queryText}}">
+
+                <button type="submit"><a >{{i+1}} </a></button>
+            </form>
+        </td>
+        {%endfor%}
+    </tr>
+    {% endif %}
+
+</table>
+
+</body>
+</html>
