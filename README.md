@@ -1,1 +1,3 @@
-# CaSearch-NLP-App
+Casearch – A web application that retrieves the Law cases’ decisions on the basis of a given query and rank the resultant documents according to their weights for the given terms as query, it works like Google. 
+We also generated the word cloud from the documents that came out for the given query. We extracted all the decisions made by the Supreme Court of Pakistan till now. 
+Categorized all the cases, extracted the text from all the documents, generated a dictionary of the terms used in the documents, indexed them, and used the BM-25 and Log term frequency weighting measures to calculate the weight of the documents given a query term.
